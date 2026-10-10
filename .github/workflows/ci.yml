@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main, lab1-ci-setup]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    name: Install Lint Test Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Setup Python and dependency cache
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install locked dependencies
+        run: python -m pip install --require-hashes -r requirements-ci.txt
+      - name: Lint
+        run: ruff check app tests
+      - name: Test and coverage gate
+        run: pytest
+      - name: Build
+        run: python -m py_compile app/*.py
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: |
+            coverage.xml
+            test-results.xml
+          retention-days: 14

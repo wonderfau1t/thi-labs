@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/wonderrfau1t/education/thi-labs
+configfile: pyproject.toml
+plugins: cov-7.1.0, anyio-4.15.1
+collected 1 item
+
+tests/test_health.py .                                                   [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /Users/wonderrfau1t/education/thi-labs/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /Users/wonderrfau1t/education/thi-labs/test-results.xml --
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.13-final-0 _______________
+
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+app/__init__.py       0      0   100%
+app/main.py           5      0   100%
+-----------------------------------------------
+TOTAL                 5      0   100%
+Coverage XML written to file coverage.xml
+Required test coverage of 80% reached. Total coverage: 100.00%
+========================= 1 passed, 1 warning in 0.48s =========================
