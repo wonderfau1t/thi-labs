@@ -1,0 +1,325 @@
+Install Lint Test Build	Set up job	﻿2026-10-10T06:52:12.7726473Z Current runner version: '2.337.0'
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7750950Z ##[group]Runner Image Provisioner
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7751833Z Hosted Compute Agent
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7752386Z Version: 20261002.596
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7753021Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7753683Z Build Date: 2026-10-02T22:28:27Z
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7754344Z Worker ID: {765f8926-4c82-4b29-aff1-6a037c2d619b}
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7754970Z Region: westus3
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7755476Z Cloud: Azure
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7755987Z ##[endgroup]
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7757405Z ##[group]Operating System
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7757983Z Ubuntu
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7758470Z 24.04.5
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7758965Z LTS
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7759449Z ##[endgroup]
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7759947Z ##[group]Runner Image
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7760528Z Image: ubuntu-24.04
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7761056Z Version: 20261004.327.1
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7762028Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7763663Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7764583Z ##[endgroup]
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7765606Z ##[group]GITHUB_TOKEN Permissions
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7767774Z Contents: read
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7768322Z Metadata: read
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7768863Z ##[endgroup]
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7770873Z Secret source: Actions
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7771736Z Cache mode: write
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.7772380Z Prepare workflow directory
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.8068669Z Prepare all required actions
+Install Lint Test Build	Set up job	2026-10-10T06:52:12.8115933Z Getting action download info
+Install Lint Test Build	Set up job	2026-10-10T06:52:13.1364879Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+Install Lint Test Build	Set up job	2026-10-10T06:52:13.2341628Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+Install Lint Test Build	Set up job	2026-10-10T06:52:13.3452718Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Install Lint Test Build	Set up job	2026-10-10T06:52:13.6213797Z Complete job name: Install Lint Test Build
+Install Lint Test Build	Checkout	﻿2026-10-10T06:52:13.6867039Z ##[group]Run actions/checkout@v5
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6868035Z with:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6868519Z   repository: wonderfau1t/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6872217Z   token: ***
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6872682Z   ssh-strict: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6873175Z   ssh-user: git
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6873665Z   persist-credentials: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6874200Z   clean: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6874685Z   sparse-checkout-cone-mode: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6875228Z   fetch-depth: 1
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6875702Z   fetch-tags: false
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6876185Z   show-progress: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6876646Z   lfs: false
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6877192Z   submodules: false
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6877703Z   set-safe-directory: true
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6878239Z   allow-unsafe-pr-checkout: false
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.6878941Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7820540Z Syncing repository: wonderfau1t/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7822470Z ##[group]Getting Git version info
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7823356Z Working directory is '/home/runner/work/thi-labs/thi-labs'
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7825235Z [command]/usr/bin/git version
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7901101Z git version 2.55.0
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7920419Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7933897Z Temporarily overriding HOME='/home/runner/work/_temp/5d4289f0-43dd-4869-9c0d-28b5775f5a0a' before making global git config changes
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7935355Z Adding repository directory to the temporary git global config as a safe directory
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7939737Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/thi-labs/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7986048Z Deleting the contents of '/home/runner/work/thi-labs/thi-labs'
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7991481Z ##[group]Initializing the repository
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.7996680Z [command]/usr/bin/git init /home/runner/work/thi-labs/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8075748Z hint: Using 'master' as the name for the initial branch. This default branch name
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8079179Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8080618Z hint: to use in all of your new repositories, which will suppress this warning,
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8082022Z hint: call:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8082646Z hint:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8083375Z hint: 	git config --global init.defaultBranch <name>
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8084294Z hint:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8085146Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8086480Z hint: 'development'. The just-created branch can be renamed via this command:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8087948Z hint:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8088579Z hint: 	git branch -m <name>
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8089395Z hint:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8090334Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8091752Z Initialized empty Git repository in /home/runner/work/thi-labs/thi-labs/.git/
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8095016Z [command]/usr/bin/git remote add origin https://github.com/wonderfau1t/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8135284Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8136555Z ##[group]Disabling automatic garbage collection
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8149511Z [command]/usr/bin/git config --local gc.auto 0
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8202336Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8203797Z ##[group]Setting up auth
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8209286Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8245180Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8610768Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8644364Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8864265Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.8891584Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.9063305Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.9095736Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.9097334Z ##[group]Fetching the repository
+Install Lint Test Build	Checkout	2026-10-10T06:52:13.9105189Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +6d56bf3457121dc4ec550e59c14f5445927c8505:refs/remotes/pull/1/merge
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3501096Z From https://github.com/wonderfau1t/thi-labs
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3502186Z  * [new ref]         6d56bf3457121dc4ec550e59c14f5445927c8505 -> pull/1/merge
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3504940Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3509539Z ##[group]Determining the checkout info
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3511248Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3514954Z [command]/usr/bin/git sparse-checkout disable
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3561353Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3624230Z ##[group]Checking out the ref
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3627401Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/1/merge
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3668922Z Note: switching to 'refs/remotes/pull/1/merge'.
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3669626Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3670455Z You are in 'detached HEAD' state. You can look around, make experimental
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3671540Z changes and commit them, and you can discard any commits you make in this
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3672394Z state without impacting any branches by switching back to a branch.
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3672916Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3673294Z If you want to create a new branch to retain commits you create, you may
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3674092Z do so (now or later) by using -c with the switch command. Example:
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3674794Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3675095Z   git switch -c <new-branch-name>
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3675661Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3675944Z Or undo this operation with:
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3676405Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3676653Z   git switch -
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3677151Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3677737Z Turn off this advice by setting config variable advice.detachedHead to false
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3678264Z 
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3678905Z HEAD is now at 6d56bf3 Merge 4a7ffab684d53459136380e3aa2dbae166bfcf2b into 85e6712b87a03f8f36a981afe2a653f9c1470728
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3680988Z ##[endgroup]
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3708773Z [command]/usr/bin/git log -1 --format=%H
+Install Lint Test Build	Checkout	2026-10-10T06:52:14.3800391Z 6d56bf3457121dc4ec550e59c14f5445927c8505
+Install Lint Test Build	Setup Python and dependency cache	﻿2026-10-10T06:52:14.4516445Z ##[group]Run actions/setup-python@v6
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4517334Z with:
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4517986Z   python-version: 3.12
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4518569Z   cache: pip
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4519169Z   cache-dependency-path: requirements-ci.txt
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4519922Z   check-latest: false
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4524078Z   token: ***
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4524690Z   update-environment: true
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4525311Z   allow-prereleases: false
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4525916Z   freethreaded: false
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.4526493Z ##[endgroup]
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.5699784Z ##[group]Installed versions
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.5780605Z Successfully set up CPython (3.12.15)
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.5781964Z ##[endgroup]
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.6100399Z [command]/opt/hostedtoolcache/Python/3.12.15/x64/bin/pip cache dir
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:14.8565293Z /home/runner/.cache/pip
+Install Lint Test Build	Setup Python and dependency cache	2026-10-10T06:52:15.0832733Z pip cache is not found
+Install Lint Test Build	Install locked dependencies	﻿2026-10-10T06:52:15.1005138Z ##[group]Run python -m pip install --require-hashes -r requirements-ci.txt
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1007576Z ^[[36;1mpython -m pip install --require-hashes -r requirements-ci.txt^[[0m
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1175691Z shell: /usr/bin/bash -e {0}
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1176709Z env:
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1177830Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1179491Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1181160Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1182586Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1184034Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1185463Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.1186633Z ##[endgroup]
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.6825767Z Ignoring colorama: markers 'sys_platform == "win32"' don't match your environment
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.7381407Z Collecting annotated-doc==0.0.5 (from -r requirements-ci.txt (line 3))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8171255Z   Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8286245Z Collecting annotated-types==0.8.0 (from -r requirements-ci.txt (line 7))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8385214Z   Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8568844Z Collecting anyio==4.15.1 (from -r requirements-ci.txt (line 11))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8667086Z   Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.8994780Z Collecting certifi==2026.7.22 (from -r requirements-ci.txt (line 17))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.9092505Z   Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.9257502Z Collecting click==8.5.0 (from -r requirements-ci.txt (line 23))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:15.9355207Z   Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.2687808Z Collecting coverage==7.16.2 (from -r requirements-ci.txt (line 31))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.2791036Z   Downloading coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (258 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3196525Z Collecting fastapi==0.143.0 (from -r requirements-ci.txt (line 125))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3294705Z   Downloading fastapi-0.143.0-py3-none-any.whl (144 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3441511Z Collecting h11==0.16.0 (from -r requirements-ci.txt (line 129))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3540840Z   Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3671722Z Collecting httpcore==1.0.9 (from -r requirements-ci.txt (line 135))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3770316Z   Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.3923112Z Collecting httpx==0.28.1 (from -r requirements-ci.txt (line 139))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4022311Z   Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4142326Z Collecting idna==3.20 (from -r requirements-ci.txt (line 143))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4239697Z   Downloading idna-3.20-py3-none-any.whl (69 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4345366Z Collecting iniconfig==2.3.1 (from -r requirements-ci.txt (line 149))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4443272Z   Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4603991Z Collecting opentelemetry-api==1.45.1 (from -r requirements-ci.txt (line 153))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4703161Z   Downloading opentelemetry_api-1.45.1-py3-none-any.whl (60 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4829980Z Collecting packaging==26.3 (from -r requirements-ci.txt (line 157))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.4927327Z   Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.5049513Z Collecting pluggy==1.6.0 (from -r requirements-ci.txt (line 161))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.5146736Z   Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.6127062Z Collecting pydantic==2.14.0 (from -r requirements-ci.txt (line 167))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:16.6227261Z   Downloading pydantic-2.14.0-py3-none-any.whl (487 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.1516058Z Collecting pydantic-core==2.50.0 (from -r requirements-ci.txt (line 171))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.1618457Z   Downloading pydantic_core-2.50.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.1927496Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 67.2 MB/s  0:00:00
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2079062Z Collecting pygments==2.21.0 (from -r requirements-ci.txt (line 269))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2178606Z   Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2295877Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 103.0 MB/s  0:00:00
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2507431Z Collecting pytest==9.1.1 (from -r requirements-ci.txt (line 273))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2606964Z   Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2774607Z Collecting pytest-cov==7.1.0 (from -r requirements-ci.txt (line 279))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.2874840Z   Downloading pytest_cov-7.1.0-py3-none-any.whl (22 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.5806860Z Collecting ruff==0.17.0 (from -r requirements-ci.txt (line 282))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.5911141Z   Downloading ruff-0.17.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.4 MB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.6795077Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 117.5 MB/s  0:00:00
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7062649Z Collecting starlette==1.7.0 (from -r requirements-ci.txt (line 301))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7165859Z   Downloading starlette-1.7.0-py3-none-any.whl (78 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7308727Z Collecting typing-extensions==4.16.0 (from -r requirements-ci.txt (line 305))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7408067Z   Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7504796Z Collecting typing-inspection==0.4.4 (from -r requirements-ci.txt (line 316))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7604066Z   Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7789525Z Collecting uvicorn==0.54.0 (from -r requirements-ci.txt (line 322))
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.7889770Z   Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:17.8785413Z Installing collected packages: typing-extensions, ruff, pygments, pluggy, packaging, iniconfig, idna, h11, coverage, click, certifi, annotated-types, annotated-doc, uvicorn, typing-inspection, pytest, pydantic-core, opentelemetry-api, httpcore, anyio, starlette, pytest-cov, pydantic, httpx, fastapi
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:19.9035194Z 
+Install Lint Test Build	Install locked dependencies	2026-10-10T06:52:19.9057763Z Successfully installed annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 click-8.5.0 coverage-7.16.2 fastapi-0.143.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 iniconfig-2.3.1 opentelemetry-api-1.45.1 packaging-26.3 pluggy-1.6.0 pydantic-2.14.0 pydantic-core-2.50.0 pygments-2.21.0 pytest-9.1.1 pytest-cov-7.1.0 ruff-0.17.0 starlette-1.7.0 typing-extensions-4.16.0 typing-inspection-0.4.4 uvicorn-0.54.0
+Install Lint Test Build	Lint	﻿2026-10-10T06:52:20.0082402Z ##[group]Run ruff check app tests
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0082871Z ^[[36;1mruff check app tests^[[0m
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0125297Z shell: /usr/bin/bash -e {0}
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0125766Z env:
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0126133Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0126664Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0127351Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0127807Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0128271Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0128771Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0129159Z ##[endgroup]
+Install Lint Test Build	Lint	2026-10-10T06:52:20.0270681Z All checks passed!
+Install Lint Test Build	Test and coverage gate	﻿2026-10-10T06:52:20.0309078Z ##[group]Run pytest
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0309377Z ^[[36;1mpytest^[[0m
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0346097Z shell: /usr/bin/bash -e {0}
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0346519Z env:
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0346990Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0347724Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0348270Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0348704Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0349178Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0349603Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:20.0349986Z ##[endgroup]
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2415045Z ============================= test session starts ==============================
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2416163Z platform linux -- Python 3.12.15, pytest-9.1.1, pluggy-1.6.0
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2417187Z rootdir: /home/runner/work/thi-labs/thi-labs
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2417861Z configfile: pyproject.toml
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2418224Z plugins: cov-7.1.0, anyio-4.15.1
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2418541Z collected 1 item
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.2418695Z 
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3066749Z tests/test_health.py .                                                   [100%]
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3067786Z 
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3068162Z =============================== warnings summary ===============================
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3069431Z ../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/fastapi/testclient.py:1
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3071922Z   /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3074104Z     from starlette.testclient import TestClient as TestClient  # noqa
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3074753Z 
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3075259Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3076400Z --- generated xml file: /home/runner/work/thi-labs/thi-labs/test-results.xml ---
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3077305Z ================================ tests coverage ================================
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3078109Z _______________ coverage: platform linux, python 3.12.15-final-0 _______________
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3078553Z 
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3078794Z Name              Stmts   Miss  Cover   Missing
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3079351Z -----------------------------------------------
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3079934Z app/__init__.py       0      0   100%
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3080431Z app/main.py           5      0   100%
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3080944Z -----------------------------------------------
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3081429Z TOTAL                 5      0   100%
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3082206Z Coverage XML written to file coverage.xml
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3082938Z Required test coverage of 80% reached. Total coverage: 100.00%
+Install Lint Test Build	Test and coverage gate	2026-10-10T06:52:21.3083628Z ========================= 1 passed, 1 warning in 0.64s =========================
+Install Lint Test Build	Build	﻿2026-10-10T06:52:21.3771544Z ##[group]Run python -m py_compile app/*.py
+Install Lint Test Build	Build	2026-10-10T06:52:21.3772028Z ^[[36;1mpython -m py_compile app/*.py^[[0m
+Install Lint Test Build	Build	2026-10-10T06:52:21.3811619Z shell: /usr/bin/bash -e {0}
+Install Lint Test Build	Build	2026-10-10T06:52:21.3811980Z env:
+Install Lint Test Build	Build	2026-10-10T06:52:21.3812420Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Build	2026-10-10T06:52:21.3812965Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Install Lint Test Build	Build	2026-10-10T06:52:21.3813553Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Build	2026-10-10T06:52:21.3814015Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Build	2026-10-10T06:52:21.3814450Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Build	2026-10-10T06:52:21.3814883Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Install Lint Test Build	Build	2026-10-10T06:52:21.3815314Z ##[endgroup]
+Install Lint Test Build	Upload test reports	﻿2026-10-10T06:52:21.4243597Z ##[group]Run actions/upload-artifact@v4
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4243994Z with:
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4244339Z   name: test-reports
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4244682Z   path: coverage.xml
+Install Lint Test Build	Upload test reports	test-results.xml
+Install Lint Test Build	Upload test reports	
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4245055Z   retention-days: 14
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4245374Z   if-no-files-found: warn
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4245690Z   compression-level: 6
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4245968Z   overwrite: false
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4246289Z   include-hidden-files: false
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4246619Z env:
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4247144Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4247683Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4248142Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4248605Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4249057Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4249506Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.4250000Z ##[endgroup]
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5815452Z (node:2177) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5816537Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5877364Z Multiple search paths detected. Calculating the least common ancestor of all paths
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5881411Z The least common ancestor is /home/runner/work/thi-labs/thi-labs. This will be the root directory of the artifact
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5882624Z With the provided path, there will be 2 files uploaded
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5884210Z Artifact name is valid!
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.5884945Z Root directory input is valid!
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.9233583Z Beginning upload of artifact content to blob storage
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:21.9413897Z (node:2177) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.1740745Z Uploaded bytes 857
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.2364254Z Finished uploading artifact content to blob storage!
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.2365054Z SHA256 digest of uploaded artifact zip is 2b24ecb694f136e0fa53d4f9b7dbeb769c762fa85a268b71f7fb9ad07439caea
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.2366485Z Finalizing artifact upload
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.4545056Z Artifact test-reports.zip successfully finalized. Artifact ID 11662996037
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.4546051Z Artifact test-reports has been successfully uploaded! Final size is 857 bytes. Artifact ID is 11662996037
+Install Lint Test Build	Upload test reports	2026-10-10T06:52:22.4553847Z Artifact download URL: https://github.com/wonderfau1t/thi-labs/actions/runs/38032421563/artifacts/11662996037
+Install Lint Test Build	Post Setup Python and dependency cache	﻿2026-10-10T06:52:22.4724108Z Post job cleanup.
+Install Lint Test Build	Post Setup Python and dependency cache	2026-10-10T06:52:22.6026356Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/thi-labs/thi-labs --files-from manifest.txt --use-compress-program zstdmt
+Install Lint Test Build	Post Setup Python and dependency cache	2026-10-10T06:52:23.8589264Z Sent 20111814 of 20111814 (100.0%), 19.2 MBs/sec
+Install Lint Test Build	Post Setup Python and dependency cache	2026-10-10T06:52:24.1674629Z Cache saved with the key: setup-python-Linux-x64-24.04-Ubuntu-python-3.12.15-pip-175033aa4babcdfab6d6945628757dd4d787da6ffe6cc7cb2f4e801e9f65641c
+Install Lint Test Build	Post Checkout	﻿2026-10-10T06:52:24.1843638Z Post job cleanup.
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2632796Z [command]/usr/bin/git version
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2668344Z git version 2.55.0
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2703012Z Temporarily overriding HOME='/home/runner/work/_temp/542daaf8-5eeb-4ff5-b4b2-6deb69933aa7' before making global git config changes
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2704458Z Adding repository directory to the temporary git global config as a safe directory
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2710199Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/thi-labs/thi-labs
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2745674Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2776681Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2969726Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.2991727Z http.https://github.com/.extraheader
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.3002114Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.3031635Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.3239163Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Install Lint Test Build	Post Checkout	2026-10-10T06:52:24.3277150Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Install Lint Test Build	Complete job	﻿2026-10-10T06:52:24.3634070Z Cleaning up orphan processes
+Install Lint Test Build	Complete job	2026-10-10T06:52:24.3891790Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
